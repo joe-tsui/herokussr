@@ -3,7 +3,10 @@
   "description": "deploy SSR to Heroku.",
   "keywords": ["BeingSSR"],
   "env": {
-
+    "PORT": {
+       "description": "输入server port",
+       "value": "80"
+     }
   },
   "website": "https://github.com/wangyi2005/v2ray-heroku",
   "repository": "https://github.com/wangyi2005/v2ray-heroku",
