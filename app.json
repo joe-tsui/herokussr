@@ -3,7 +3,6 @@
   "description": "deploy SSR to Heroku.",
   "keywords": ["BeingSSR"],
   "env": {
-    "VER": {
 
   },
   "website": "https://github.com/wangyi2005/v2ray-heroku",
