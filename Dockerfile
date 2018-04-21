@@ -16,7 +16,7 @@ RUN mkdir /ssr \
 COPY config.json /config.json
 COPY dns.conf /ssr/shadowsocks/dns.conf
 COPY r.sh /ssr/shadowsocks/r.sh
-RUN chmod +x /ssr/shadowsocks/r.sh
+RUN chmod 777 /ssr/shadowsocks/r.sh
 
 USER root
 
