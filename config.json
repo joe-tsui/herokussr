@@ -2,9 +2,9 @@
     "server": "0.0.0.0",
     "server_ipv6": "::",
     "local_address": "127.0.0.1",
-    "local_port": 10800,
+    "local_port": 1080,
     "port_password":{
-      "8080":"123456xu"
+      "80":"123456xu"
     },
     "timeout": 120,
     "udp_timeout": 60,
