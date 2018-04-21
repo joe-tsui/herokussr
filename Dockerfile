@@ -18,8 +18,6 @@ COPY dns.conf /ssr/shadowsocks/dns.conf
 COPY r.sh /ssr/shadowsocks/r.sh
 RUN chmod +x /ssr/shadowsocks/r.sh
 
-EXPOSE 80/tcp
-
 USER root
 
 WORKDIR /ssr/shadowsocks
