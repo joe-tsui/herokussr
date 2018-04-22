@@ -6,9 +6,13 @@
     "PORT": {
        "description": "输入server port",
        "value": "80"
+     },
+    "PASSWORD": {
+       "description": "输入server password",
+       "value": "131415"
      }
   },
-  "website": "https://github.com/wangyi2005/v2ray-heroku",
-  "repository": "https://github.com/wangyi2005/v2ray-heroku",
+  "website": "https://github.com/joe-tsui/herokussr",
+  "repository": "https://github.com/joe-tsui/herokussr",
   "stack": "container"
  }
